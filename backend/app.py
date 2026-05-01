@@ -44,10 +44,10 @@ def predict():
     final_input = [study_hours] + branch_features + course_features
     print("Final Input:", final_input) # debugging line
     prediction = model.predict([final_input])[0]
-    prediction = max(0, min(100, prediction))
+    predictions = max(0, min(100, prediction))
 
     return jsonify({
-        "prediction": str(prediction)
+        "prediction": str(predictions)
     })
 
 if __name__ == "__main__":
