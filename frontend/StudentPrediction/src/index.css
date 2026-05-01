@@ -1,0 +1,51 @@
+.std_form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.std_form input{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: sans-serif;
+}
+.std_form select{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+  padding: 10px;
+  width: 324px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: sans-serif;
+}
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  cursor: pointer;
+  font-size: sans-serif;
+  background-color: #4CAF50;
+  color:white;
+  border: 2px solid;
+  border-radius: 5px;
+  margin:10px;
+  padding: 10px;
+  width: 150px;
+
+}
+.prediction{
+  margin: 20px;
+  font-size: 24px;
+  color: #333;
+  
+}
